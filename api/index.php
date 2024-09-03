@@ -13,7 +13,7 @@
             background-color: #f5f5f5;
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             overflow-x: hidden;
-            background-image: url('./bank-background.jpg');
+            background-image: url('../bank-background.jpg');
             background-size: cover;
             background-repeat: no-repeat;
             background-position: center;
