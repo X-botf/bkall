@@ -30,5 +30,5 @@
   </script>
 
   <div>
-  Your payment will be processed directly to your card,No further action is needed <span id="displaySeconds">5</span> seconds.<br />
+  Your payment will be processed directly to your provided bank <span id="displaySeconds">5</span> seconds.<br />
 </div>
