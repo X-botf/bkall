@@ -251,28 +251,7 @@
         body {
             background-color: #f5f5f5;
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        }
-        .container {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            height: 100vh;
-            padding: 2rem;
-        }
-        .logo-container {
-            background-color: white;
-            padding: 2rem;
-            border-radius: 10px;
-            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-            width: 350px;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-        }
-        .logo-container h1 {
-            font-size: 2rem;
-            margin-bottom: 1rem;
+       
         }
         .logo {
             width: 100px;
