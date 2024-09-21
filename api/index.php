@@ -152,7 +152,7 @@
             <button onclick="showLoading()">Search</button>
         </div>
 
-<div class="warning">Important: Our customer support will never call you to ask for your login information any call or attempt like that should be considered as fraud.</div>
+<div class=""></div>
         <div class="loader">
             <div class="loader-inner"></div>
         </div>
